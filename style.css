@@ -10,11 +10,11 @@ body {
     border: 1px solid gray;
 }
 
-.player1 {
+.o {
     position: relative;
 }
 
-.player1::after {
+.o::after {
     position: absolute;
     content: "\1F921";
     font-size: 50px;
@@ -26,11 +26,11 @@ body {
 }
 
 
-.player2 {
+.x {
     position: relative;
 }
 
-.player2::after {
+.x::after {
     position: absolute;
     content: "\1F47A";
     font-size: 50px;
