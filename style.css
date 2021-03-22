@@ -1,13 +1,5 @@
-* {
-    margin: 0;
-    border: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body{
-    display: flex;
-    justify-content: center;
+body {
+    text-align: center;
 }
 
 .square {
@@ -17,3 +9,36 @@ body{
     background-color: #f1f1d5;
     border: 1px solid gray;
 }
+
+.player1 {
+    position: relative;
+}
+
+.player1::after {
+    position: absolute;
+    content: "\1F921";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+
+.player2 {
+    position: relative;
+}
+
+.player2::after {
+    position: absolute;
+    content: "\1F47A";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+
